@@ -45,4 +45,8 @@ public class CacheServiceImpl implements CacheService {
             exception.printStackTrace();
         }
     }
+
+    public CacheImpl getCache() {
+        return cache;
+    }
 }

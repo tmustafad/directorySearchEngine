@@ -1,0 +1,8 @@
+necessarily feature complete
+ You should be spending 2-3 hours on the task, so basic functionality is better than a complex
+scoring algorithm and no console application.
+ External libraries are forbidden, other than test/mocking frameworks
+ Ranking score design — start with something basic, then iterate as time allows
+ The in memory representation — searches should be relatively efficient
+ What constitutes a word?
+ What constitutes two words being equal (and

@@ -1,6 +1,5 @@
 package com.turkmen.util;
 
-import com.turkmen.service.CacheService;
 import com.turkmen.service.impl.CacheServiceImpl;
 import com.turkmen.service.impl.SearchServiceImpl;
 
@@ -14,7 +13,8 @@ public class AppUtil {
         return new SearchServiceImpl();
     }
 
-    public static CacheService createCacheService(){
+    public static CacheServiceImpl createCacheService(){
         return new CacheServiceImpl();
     }
+
 }
